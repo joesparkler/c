@@ -7,8 +7,8 @@ void main()
 	scanf("%d",&n);
 	while(n>=1)
 	{
-		temp=temp+n;
+		N=N+n;
 		n--;
 	}
-	printf("Sum is %d",temp);
+	printf("Sum is %d",N);
 }
