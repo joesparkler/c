@@ -2,17 +2,17 @@
 #include<conio.h>
 void main()
 {
-int c;
+int d;
 clrscr();
 printf("Enter a value:");
 scanf("%d,&c);
-if ((c%2)==0);
+if ((d%2)==0);
 {
-printf("The c is even.");
+printf("The d is even.");
 }
 else 
 {
-printf("c is odd");
+printf("d is odd");
 }
 getch();
 }
