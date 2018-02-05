@@ -1,12 +1,12 @@
 #include<stdio.h>
 int main()
 {
-int i,n,m;
+int i,n,a;
 printf("enter the limit:\n");
 scanf("%d",&n);
 printf("enter the number:\n");
-scanf("%d",&m);
-printf("the divisible by %d are:",m);
+scanf("%d",&a);
+printf("the divisible by %d are:",a);
 for(i=1;i<=n;i++)
 {
 i%d==0;
