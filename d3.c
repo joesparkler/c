@@ -1,7 +1,7 @@
 #include<stdio.h>
 int main()
 {
-	int a,b[15],i,c;
+	int a,b[15],i,j;
 	printf("\narray size");
 	scanf("%d",&a);
 	printf("\nARRAY ELMTS");
@@ -11,8 +11,8 @@ int main()
 	}
 	if(b[15]<=a)
 	{
-		c=b[15];
+		j=b[15];
 	}
-	printf("\n result is %d",c);
+	printf("\n result is %d",j);
 	return 0;
 }
