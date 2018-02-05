@@ -2,7 +2,7 @@
 int main()
 {
 int a[20];
-int i,j,n,t;
+int i,j,n,b;
 printf("enter the number of values");
 scanf("%d",&n);
 printf("enter the values");
@@ -16,7 +16,7 @@ for(j=i+1;j<n;j++)
 {
 if(a[i]>a[j])
 {
-t=a[i];
+b=a[i];
 a[i]=a[j];
 a[j]=t;
 }
