@@ -1,10 +1,10 @@
 #include<stdio.h>
 int main()
 {
-	int n,p=1,d,sum=0,i;
+	int n,p=1,d,sum=0,a;
 	printf("Enter n and d values");
 	scanf("%d %d ",&n,&d);
-	for(i=1;i<=n;i++)
+	for(a=1;a<=n;a++)
 	{
 		sum=sum+p;
 		p=p+d;
