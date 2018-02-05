@@ -1,16 +1,16 @@
 #include<stdio.h>
 void main()
 {
-int n,i,k;
-scanf("%d",&n);
+int a,i,k;
+scanf("%d",&a);
 int a[20];
-for(i=0;i<n;i++)
+for(i=0;i<a;i++)
 {
 scanf("%d",&a[i]);
 }
-for(i=0;i<n;i++)
+for(i=0;i<a;i++)
 {
-    for(k=i+1;k<n;k++)
+    for(k=i+1;k<a;k++)
 {
 if(a[i]==a[k])
 printf("%d ",a[i]);}
