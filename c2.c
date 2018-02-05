@@ -2,14 +2,14 @@
 #include<conio.h>
 int main()
 {
-int n,reversed integer=0,remainder,original integer;
-printf("enter an integer:");
-scanf("%d",&n);
-originalInteger=n;
-while(n!=0)
+int m,reversed integer=0,remainder,original integer;
+printf("enter a integer:");
+scanf("%d",&m);
+originalInteger=m;
+while(m!=0)
 {
-remainder=n%10;
-n/10;
+remainder=m%10;
+m/10;
 }
 if(originalInteger==reverseInteger)
 printf(("%d is a palindrome",originalInteger);
