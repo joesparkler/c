@@ -2,19 +2,19 @@
 
 int main(void) {
 	{
-    int i, j, min, max, flag=0;
+    int a, b, min, max, flag=0;
     printf("\n Enter two numbers(Intervals) : ");
     scanf("%d%d",&min,&max);
      
     printf("\n The prime numbers between %d and %d are :",min,max);
      
-    for(i=min+1;i<max;i++)
+    for(a=min+1;a<max;a++)
     {
         flag=0;
          
-        for(j=2;j<=sqrt*(i);j++)      
+        for(b=2;b<=sqrt*(a);b++)      
         {
-            if(i%j==0)
+            if(a%b==0)
             {
                 flag=1;
                 break;
@@ -22,7 +22,7 @@ int main(void) {
         
         if (flag==0)
         {
-            printf("%d",i);
+            printf("%d",a);
         }
    
   	return 0;
