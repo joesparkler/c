@@ -2,10 +2,10 @@
 
 void main()
 { 
-    int n,i,r;
-    scanf("%d",&n);
+    int m,i,r;
+    scanf("%d",&m);
     scanf("%d",&r);
-    for(i=n+1;i<r;i++)
+    for(i=m+1;i<r;i++)
     {
         if(i%2==0)
         {
