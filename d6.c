@@ -1,16 +1,16 @@
 #include <stdio.h>
 
 int main(void) {
-	int a[50],i,j,n,h;
+	int a[50],i,j,k,h;
 	printf("enetr the n value");
-	scanf("%d",&n);
-	for(j=1;j<=n;j++)
+	scanf("%d",&k);
+	for(j=1;j<=k;j++)
 	{
 		scanf("%d",&a[j]);
 	}
-	for(j=1;j<=n;j++)
+	for(j=1;j<=k;j++)
 	{
-		for(i=j+1;i<=n;i++)
+		for(i=j+1;i<=k;i++)
 		{
 		if(a[j]>a[i])
 		{
@@ -20,7 +20,7 @@ int main(void) {
 		}
 		}
 	}
-	for(j=1;j<=n;j++)
+	for(j=1;j<=k;j++)
 	{
 	printf(" %d",a[j]);
 	}
