@@ -1,14 +1,14 @@
 #include<stdio.h>
 void main()
 {
-int a[10],i,n;
+int a[10],i,m;
 printf("n=");
-	scanf("%d",&n);
-	for(i=0;i<n;i++)
+	scanf("%d",&m);
+	for(i=0;i<m;i++)
 	{
 		scanf("%d",&a[i]);
 	}
-	for(i=0;i<n;i++)
+	for(i=0;i<m;i++)
 	{
 		printf("\n%d\t%d",a[i],i);
 	}
