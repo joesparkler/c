@@ -1,23 +1,25 @@
+
 #include<stdio.h>
 int main()
 {
-char str[100];
-int i=0,num=0,alp=0,sp=0,spc=0;
-printf("Enter a string");
-gets(str);
-while(str[i]!='\0')
+int i,count=0;
+char a[100];
+gets(a);
+for(i=0;a[i]!=0;i++)
 {
-char ch=str[i];
-if(ch>='0' && ch<='9') 
-num++;
-else if((ch>='A' && ch<='Z') || (ch>='a' && ch<='z'))
-alp++;
-else if(ch=='\t' && ch==' ')
-sp++;
-else
-spc++;
-i++;
+if(a[i]>='0' && a[i]<='9')
+{
+count++;
 }
-printf("%d",spc);
+else if(a[i]=='.')
+{
+	count++;
+}
+else
+{ 
+	printf("no special characters");
+}
+}
+printf("no. of special characters  ar:%d",count);
 return 0;
 }
