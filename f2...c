@@ -2,9 +2,9 @@
 void main()
 {
 char string1=6,string2=5;
-int i,temp;
+int j,temp;
 printf("enter the string1 and string2 value");
-fot(i=0;string1(i)!'\0';i++)
+fot(j=0;string1(j)!'\0';j++)
 {
 if(string1==string2)
 {
