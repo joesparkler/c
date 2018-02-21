@@ -3,9 +3,9 @@
 int main(void) {
 	char a[50];
 	scanf("%s",a);
-	int n,i;
+	int n,j;
 	scanf("\n%d",&n);
-	for(i=1;i<=n;i++)
+	for(j=1;j<=n;j++)
 	{
 		printf("\n%s",a);
 	}
